@@ -57,6 +57,13 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "70M走",
+            "障害物競走",
+            "菓子屋横丁",
+            "デカパン",
+            "F3",
+            "対抗綱引き"});
             this.comboBox1.Location = new System.Drawing.Point(208, 40);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(210, 20);
@@ -68,18 +75,17 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(208, 70);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 12);
+            this.label2.Size = new System.Drawing.Size(0, 12);
             this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(208, 115);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 12);
+            this.label3.Size = new System.Drawing.Size(41, 12);
             this.label3.TabIndex = 3;
-            this.label3.Text = "label3";
+            this.label3.Text = "1年1組";
             // 
             // textBox1
             // 
@@ -87,6 +93,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(60, 19);
             this.textBox1.TabIndex = 4;
+            this.textBox1.Text = "0";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox_TextChanged);
             // 
             // checkBox1
@@ -104,9 +111,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(283, 115);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 12);
+            this.label4.Size = new System.Drawing.Size(41, 12);
             this.label4.TabIndex = 6;
-            this.label4.Text = "label4";
+            this.label4.Text = "1年2組";
             // 
             // textBox2
             // 
@@ -114,6 +121,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(60, 19);
             this.textBox2.TabIndex = 7;
+            this.textBox2.Text = "0";
             this.textBox2.TextChanged += new System.EventHandler(this.textBox_TextChanged);
             // 
             // checkBox2
@@ -131,9 +139,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(358, 115);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 12);
+            this.label5.Size = new System.Drawing.Size(41, 12);
             this.label5.TabIndex = 9;
-            this.label5.Text = "label5";
+            this.label5.Text = "1年3組";
             // 
             // textBox3
             // 
@@ -141,6 +149,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(60, 19);
             this.textBox3.TabIndex = 10;
+            this.textBox3.Text = "0";
             this.textBox3.TextChanged += new System.EventHandler(this.textBox_TextChanged);
             // 
             // checkBox3
@@ -155,6 +164,7 @@
             // 
             // button1
             // 
+            this.button1.Enabled = false;
             this.button1.Location = new System.Drawing.Point(208, 200);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 40);

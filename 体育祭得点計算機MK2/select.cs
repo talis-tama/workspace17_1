@@ -8,37 +8,32 @@ namespace 体育祭得点計算機MK2
         public select() { InitializeComponent(); }
         private void button1_Click(object sender, EventArgs e)
         {
-            box.mode = 1;
             Form1.f3.Visible = false;
             Form1.f4.Visible = true;
         }
         private void button2_Click(object sender,EventArgs e)
         {
-            box.mode = 2;
-            Form1.f3.Visible = false;
-            Form1.f4.Visible = true;
+
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            box.mode = 3;
-            Form1.f3.Visible = false;
-            Form1.f4.Visible = true;
+
         }
         private void button4_Click(object sender,EventArgs e)
         {
-            box.mode = 4;
+            
         }
         private void button5_Click(object sender, EventArgs e)
         {
-            box.mode = 5;
+            
         }
         private void button6_Click(object sender, EventArgs e)
         {
-            box.mode = 6;
+            
         }
         private void button7_Click(object sender, EventArgs e)
         {
-            box.mode = 7;
+            
         }
         private void button8_Click(object sender, EventArgs e)
         {
